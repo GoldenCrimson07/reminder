@@ -1,0 +1,48 @@
+
+  .container {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 48px;
+    color: #ff69b4;
+  }
+  
+
+  .clicked {
+    color: #ff0000;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .heart-container {
+    margin-top: 100px;
+    animation: pulse 2s ease-in-out ;
+    background-color: aliceblue;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .heart {
+    font-size: 20px;
+    color: #ff69b4;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  
+  
