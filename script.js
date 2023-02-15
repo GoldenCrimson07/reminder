@@ -28,10 +28,10 @@ console.log(hours);
 if(hours<=5){
   title.innerHTML = 'Good Morning Laulauu'
   desc.innerHTML ='Kok masih belum tidur?, Jangan Bergadang Ya <img src="https://em-content.zobj.net/source/microsoft-teams/337/face-blowing-a-kiss_1f618.png" srcset="https://em-content.zobj.net/source/microsoft-teams/337/face-blowing-a-kiss_1f618.png 2x" alt="Face Blowing a Kiss on Microsoft Teams 1.0" width="160" height="160"><br>Kalau memang masih bisa dilanjutin besok, Lanjutin besok aja lau'
-}else if(hours>5 && hours<=12){
+}else if(hours>5 && hours<=11){
   title.innerHTML = 'Good Morning Laulauu'
   desc.innerHTML = 'Semangat Hari Ini Ya<br>Walaupun aku gak ada di Bandung, jangan lupa makan sama minum yang teratur ya<br><img class="lazypreload lazyloaded" src="https://em-content.zobj.net/source/microsoft-teams/337/hugging-face_1f917.png" data-src="https://em-content.zobj.net/source/microsoft-teams/337/hugging-face_1f917.png" data-srcset="https://em-content.zobj.net/source/microsoft-teams/337/hugging-face_1f917.png 2x" alt="Smiling Face with Open Hands" title="Smiling Face with Open Hands" width="72" height="72" srcset="https://em-content.zobj.net/source/microsoft-teams/337/hugging-face_1f917.png 2x">'
-}else if(hours>12 && hours<9){
+}else if(hours>11 && hours<9){
   title.innerHTML = 'Good Afternoon Laulauu'
   desc.innerHTML = 'Gimana hari ini? Capek ya?<br><img class="lazypreload lazyloaded" src="https://em-content.zobj.net/source/microsoft-teams/337/pleading-face_1f97a.png" data-src="https://em-content.zobj.net/source/microsoft-teams/337/pleading-face_1f97a.png" data-srcset="https://em-content.zobj.net/source/microsoft-teams/337/pleading-face_1f97a.png 2x" alt="Pleading Face" title="Pleading Face" width="72" height="72" srcset="https://em-content.zobj.net/source/microsoft-teams/337/pleading-face_1f97a.png 2x"><br> Sini-sini kabarin aku ya kalau kamu lagi capek'
 }else{
